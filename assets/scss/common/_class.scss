@@ -1,0 +1,13 @@
+@use "../presets" as *;
+
+.wrapper {
+  min-height: 100vh;
+  background: $color-background;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 1.125rem;
+  margin: 0 auto;
+}

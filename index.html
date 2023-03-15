@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Search</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4ce6d90f6d.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1 class="logo-title">
+        <a href="https://github.com/" class="logo-title__link">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub Search</span>
+        </a>
+      </h1>
+      <div class="search-container search">
+        <input class="search__input" type="text" id="search-input" placeholder="Введите поисковый запрос">
+        <button class="search__btn" id="search-button">Поиск</button>
+      </div>
+      <div class="results-container" id="results-container"></div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
